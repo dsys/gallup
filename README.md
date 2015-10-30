@@ -41,6 +41,18 @@ poller.stop()
 poller.start()
 ```
 
+## Development
+
+Gallup uses [Jest](http://facebook.github.io/jest/) for testing. There's really
+not much to it:
+
+    $ git clone git@github.com:pavlovml/gallup.git
+    $ npm test
+
+To run the tests on file changes:
+
+    $ npm test
+
 ## License
 
 [BSD 3-Clause](https://github.com/pavlovml/gallup/blob/master/LICENSE)
