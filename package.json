@@ -4,7 +4,7 @@
   "description": "Poll any resource using ES6 Promises and streams.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,18 @@
   "bugs": {
     "url": "https://github.com/pavlovml/gallup/issues"
   },
-  "homepage": "https://github.com/pavlovml/gallup#readme"
+  "homepage": "https://github.com/pavlovml/gallup#readme",
+  "devDependencies": {
+    "babel-jest": "^5.3.0",
+    "jest-cli": "^0.6.1"
+  },
+  "babel": {
+    "optional": [
+      "es7.functionBind"
+    ]
+  },
+  "jest": {
+    "scriptPreprocessor": "<rootDir>/node_modules/babel-jest",
+    "testPathDirs": ["lib"]
+  }
 }
