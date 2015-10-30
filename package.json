@@ -1,0 +1,19 @@
+{
+  "name": "gallup",
+  "version": "1.0.0",
+  "description": "Poll any resource using ES6 Promises and streams.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/pavlovml/gallup.git"
+  },
+  "author": "Alex Kern <alex@pavlovml.com> (http://kern.io)",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/pavlovml/gallup/issues"
+  },
+  "homepage": "https://github.com/pavlovml/gallup#readme"
+}
