@@ -32,6 +32,9 @@
     ]
   },
   "standard": {
+    "ignore": [
+      "dist"
+    ],
     "global": [
       "jest",
       "describe",
