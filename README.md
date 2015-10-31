@@ -1,4 +1,4 @@
-<img src="https://github.com/pavlovml/gallup/blob/master/assets/logo.png" alt="gallup" width="303" />
+<img src="https://github.com/pavlovml/gallup/blob/master/resources/logo.png" alt="gallup" width="303" />
 
 Poll any resource using ES6 Promises and streams.
 
