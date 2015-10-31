@@ -51,6 +51,8 @@ To run the tests on file changes:
 
     $ npm test -- --watch
 
+[![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
+
 ## License
 
 [BSD 3-Clause](https://github.com/pavlovml/gallup/blob/master/LICENSE)
