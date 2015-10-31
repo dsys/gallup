@@ -1,4 +1,4 @@
-# gallup
+# :bar_chart: gallup
 
 Poll any resource using ES6 Promises and streams.
 
@@ -9,14 +9,14 @@ Poll any resource using ES6 Promises and streams.
 ## Usage
 
 ```javascript
-var Gallup = require('gallup')
+import Gallup from 'gallup'
 
 // You construct a poller by providing a poll callback as the first argument
 // and an optional options object as the second. The poll function may return a
 // normal value or an ES6 Promise to be evaluated.
 
-var poller = new Gallup(function () {
-  return Promise.resolve({ stub: 'data' })
+var poller = new Gallup(() => {
+    return Promise.resolve({ stub: 'data' })
 }, 5000) // poll every 5 seconds (default: 1 second)
 
 // Pollers are stopped by default. Starting them begins polling immediately.
@@ -36,15 +36,13 @@ poller.on('error', err => {
 })
 
 // You can also stop and restart polling.
-
 poller.stop()
 poller.start()
 ```
 
 ## Development
 
-Gallup uses [Jest](http://facebook.github.io/jest/) for testing. There's really
-not much to it:
+Gallup uses [Babel](https://babeljs.io/) for ES6+ support and [Jest](http://facebook.github.io/jest/) for testing. There's really not much to it:
 
     $ git clone git@github.com:pavlovml/gallup.git
     $ npm test
