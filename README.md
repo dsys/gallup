@@ -1,6 +1,6 @@
 <img src="https://github.com/pavlovml/gallup/blob/master/resources/logo.png" alt="gallup" width="303" />
 
-![TravisCI shield](https://img.shields.io/travis/pavlovml/gallup.svg) ![npm shield](https://img.shields.io/npm/v/gallup.svg) [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](http://standardjs.com/)
+[![TravisCI shield](https://img.shields.io/travis/pavlovml/gallup.svg)](https://travis-ci.org/pavlovml/gallup) [![npm shield](https://img.shields.io/npm/v/gallup.svg)](https://www.npmjs.com/package/gallup) [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](http://standardjs.com/)
 
 Poll any resource using ES6 Promises and streams.
 
