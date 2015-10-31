@@ -49,7 +49,7 @@ Gallup uses [Babel](https://babeljs.io/) for ES6+ support and [Jest](http://face
 
 To run the tests on file changes:
 
-    $ npm test
+    $ npm test -- --watch
 
 ## License
 
