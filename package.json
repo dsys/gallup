@@ -1,6 +1,6 @@
 {
   "name": "gallup",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Poll any resource using ES6 Promises and streams.",
   "main": "dist/gallup.js",
   "scripts": {
