@@ -1,5 +1,7 @@
 <img src="https://github.com/pavlovml/gallup/blob/master/resources/logo.png" alt="gallup" width="303" />
 
+![TravisCI shield](https://img.shields.io/travis/pavlovml/gallup.svg) ![npm shield](https://img.shields.io/npm/v/gallup.svg) [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](http://standardjs.com/)
+
 Poll any resource using ES6 Promises and streams.
 
 ## Installation
@@ -42,7 +44,7 @@ poller.start()
 
 ## Development
 
-Gallup uses [Babel](https://babeljs.io/) for ES6+ support and [Jest](http://facebook.github.io/jest/) for testing. There's really not much to it:
+Gallup uses [JavaScript Standard Style](https://github.com/feross/standard), [Babel](https://babeljs.io/) for ES6+ support, and [Jest](http://facebook.github.io/jest/) for testing.
 
     $ git clone git@github.com:pavlovml/gallup.git
     $ npm test
@@ -50,8 +52,6 @@ Gallup uses [Babel](https://babeljs.io/) for ES6+ support and [Jest](http://face
 To run the tests on file changes:
 
     $ npm test -- --watch
-
-[![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
 
 ## License
 
