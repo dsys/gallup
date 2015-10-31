@@ -45,4 +45,5 @@ Icon
 
 # Sources
 lib
-assets
+resources/logo.png
+resources/logo.sketch
